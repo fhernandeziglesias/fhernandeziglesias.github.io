@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Francisco Hernández Iglesias</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f9;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #333;
+      color: white;
+      padding: 20px;
+      text-align: left;
+      position: relative;
+      display: flex;
+      justify-content: space-between; /* Ensures space between main link and nav */
+      align-items: center; /* Vertically centers the items */
+    }
+    header a {
+      text-decoration: none;
+      color: white;
+    }
+    h1 {
+      margin: 0;
+    }
+    h2 {
+      font-size: 2em;
+      font-weight: bold;
+    }
+    section {
+      padding: 20px;
+      text-align: left; /* Align text to the left */
+      max-width: 900px; /* Optional: Set a maximum width for readability */
+      margin: 0 auto; /* Center the section horizontally */
+    }
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+    nav {
+      margin-top: 10px;
+    }
+    nav a {
+      display: inline-block;
+      padding: 10px 20px;
+      margin: 0 15px;
+      font-size: 22px; /* Increased font size */
+      font-weight: bold;
+      text-decoration: none;
+      color: white;
+      transition: color 0.3s ease;
+    }
+    nav a:hover {
+      color: #007bff;
+    }
+    nav a:focus {
+      outline: none;
+      box-shadow: 0 0 5px 2px rgba(0, 123, 255, 0.6);
+    }
+    .main-link {
+      font-size: 2em;
+      font-weight: bold;
+      position: relative;
+      left: 20px;
+      color: white; /* Ensure the main link is white by default */
+      transition: color 0.3s ease; /* Smooth transition */
+    }
+    .main-link:hover {
+      color: #007bff; /* Change to blue on hover */
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <a href="index.html" class="main-link">Francisco Hernández Iglesias</a>
+    <nav>
+        <a href="meat.html">Meat</a>
+        <a href="math.html">Math</a>
+        <a href="chess.html">Chess</a>
+        <a href="crypto.html">Crypto</a>
+      </nav>
+  </header>
+
+  <section>
+    <h2>About me</h2>
+    <p>I am the CTO and cofounder of <a href="http://symmetric.ai" target="_blank">Symmetric.ai</a>, a data distillation 
+        platform which ensures AI models are trained on the highest quality data.</p>
+    <p>Previously, I worked as an applied cryptographer at the blockchain companies Nebra and Manta Network, 
+      specializing in Zero-Knowledge technology.</p>
+    <p>Outside of work, I enjoy mathematics, cryptography, chess, and steak.</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Francisco Hernández Iglesias</p>
+  </footer>
+</body>
+</html>
